@@ -1,0 +1,203 @@
+%% LyX 2.3.6.1 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,twoside,spanish]{Plantilla}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage[landscape,letterpaper]{geometry}
+\geometry{verbose,tmargin=5cm,bmargin=3cm,lmargin=3cm,rmargin=3cm}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{3}
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+
+\usepackage{pifont}
+\usepackage{float}
+\usepackage[unicode=true,pdfusetitle,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=false,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=false]
+ {hyperref}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{Plantilla}
+
+\AtBeginDocument{
+  \def\labelitemi{\ding{109}}
+  \def\labelitemii{\ding{113}}
+  \def\labelitemiii{\Pisymbol{psy}{68}}
+  \def\labelitemiv{\ding{226}}
+}
+
+\makeatother
+
+\begin{document}
+
+\Titulo{Nombre del Software}
+
+\Subtitulo{Código Fuente}
+
+\Autores{%
+\begin{tabular}{c}
+Autor 1\tabularnewline
+Autor 2\tabularnewline
+Autor 3\tabularnewline
+\end{tabular}}
+
+\AutoresCorto{Autor 1, Autor 2, Autor 3}
+
+\Institucion{Nombre de la Universidad}
+
+\Ciudad{Nombre de la Ciudad}
+
+\Fecha{Año de Publicación}
+
+\Logo{Imagenes/Logo.png}
+
+\Version{1.22.12.2}
+
+\GenerarPortada{}
+
+\tableofcontents{}
+
+\TipoCapitulo{Capítulo}
+
+\chapter{Código Fuente}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In finibus
+mi sit amet lectus varius, mattis ullamcorper felis dapibus. In a
+est fermentum, tincidunt tellus quis, condimentum odio. Phasellus
+facilisis egestas sem, at mattis quam sodales vel. Proin pulvinar
+sodales faucibus. Morbi semper, erat vulputate vulputate posuere,
+metus turpis cursus tortor, a commodo erat turpis et lectus. Vivamus
+quis turpis at nulla placerat consequat ut sed nulla. In arcu turpis,
+porta ac vestibulum vel, tristique in erat. Quisque eu turpis consectetur,
+accumsan nulla ut, luctus nunc. Morbi porta varius ultricies.
+
+\section{Facultades.js}
+
+Descripción del Código
+
+\lstset{style=codigoJavascript}
+
+\begin{lstlisting}
+const { pool, MENSAJE_ERROR_SERVIDOR } = require("../config/config");
+const Utilidades = require("./utilidades.model");
+
+class Facultad {
+
+    async postFacultad(datos) {
+       return new Promise((resolve, reject) => {
+    
+          let idfacultad = new Utilidades().generarID();
+          let {facultad} = datos;
+          let query = `INSERT INTO public.facultades (idfacultad, facultad) VALUES ($1, $2)`;
+          pool.query(query, [idfacultad, facultad], (error, results) => {
+             if (error) {
+                reject({
+                   Response: MENSAJE_ERROR_SERVIDOR + error,
+                   Status: false
+                });
+                return;
+             }
+    
+             resolve({
+                Response: 'La facultad se creó correctamente',
+                Status: true
+             });
+          });
+       });
+    }
+
+    async putFacultad(datos) {
+       return new Promise((resolve, reject) => {
+    
+          let {idfacultad, facultad} = datos;
+          let query = `UPDATE public.facultades SET facultad=$1 WHERE idfacultad='${idfacultad}'`;
+          pool.query(query, [facultad], (error, results) => {
+             if (error) {
+                reject({
+                   Response: MENSAJE_ERROR_SERVIDOR + error,
+                   Status: false
+                });
+                return;
+             }
+    
+             resolve({
+                Response: 'La facultad se actualizó correctamente',
+                Status: true
+             });
+          });
+       });
+    }   
+
+    async getFacultadById(idfacultad) {
+       return new Promise((resolve, reject) => {
+          let query = `SELECT * FROM public.facultades WHERE idfacultad='${idfacultad}'`;
+          pool.query(query, (error, results) => {
+             if (error) {
+                reject({
+                   Response: MENSAJE_ERROR_SERVIDOR + error,
+                   Status: false
+                });
+                return;
+             }
+    
+             resolve({
+                Response: 'La facultad se obtuvo correctamente',
+                Status: true,
+                Object: results.rows[0]
+             });
+          });
+       });
+    }
+
+    async getFacultades() {
+       return new Promise((resolve, reject) => {
+          let query = `SELECT * FROM public.facultades ORDER BY facultad`;
+          pool.query(query, (error, results) => {
+             if (error) {
+                reject({
+                   Response: MENSAJE_ERROR_SERVIDOR + error,
+                   Status: false
+                });
+                return;
+             }
+    
+             resolve({
+                Response: 'Las facultades se obtuvieron correctamente',
+                Status: true,
+                Results: results.rows
+             });
+          });
+       });
+    }
+
+    async deleteFacultad(idfacultad) {
+       return new Promise((resolve, reject) => {
+          let query = `DELETE FROM public.facultades WHERE idfacultad='${idfacultad}'`;
+          pool.query(query, (error, results) => {
+             if (error) {
+                reject({
+                   Response: MENSAJE_ERROR_SERVIDOR + error,
+                   Status: false
+                });
+                return;
+             }
+    
+             resolve({
+                Response: 'La facultad se eliminó correctamente',
+                Status: true
+             });
+          });
+       });
+    }
+}
+
+module.exports = Facultad;
+\end{lstlisting}
+\end{document}

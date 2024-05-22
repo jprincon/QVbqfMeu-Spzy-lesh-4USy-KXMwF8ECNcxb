@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{5D5705C4-5AEE-4951-8B32-587405EA2202}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Gestor_Proyectos_Programacion.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Install.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Uninstall.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Gestor_Proyectos_Programacion">
+        <MSBuild Projects="Gestor_Proyectos_Programacion.dproj"/>
+    </Target>
+    <Target Name="Gestor_Proyectos_Programacion:Clean">
+        <MSBuild Projects="Gestor_Proyectos_Programacion.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Gestor_Proyectos_Programacion:Make">
+        <MSBuild Projects="Gestor_Proyectos_Programacion.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Install">
+        <MSBuild Projects="Install.dproj"/>
+    </Target>
+    <Target Name="Install:Clean">
+        <MSBuild Projects="Install.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Install:Make">
+        <MSBuild Projects="Install.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Uninstall">
+        <MSBuild Projects="Uninstall.dproj"/>
+    </Target>
+    <Target Name="Uninstall:Clean">
+        <MSBuild Projects="Uninstall.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Uninstall:Make">
+        <MSBuild Projects="Uninstall.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Gestor_Proyectos_Programacion;Install;Uninstall"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Gestor_Proyectos_Programacion:Clean;Install:Clean;Uninstall:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Gestor_Proyectos_Programacion:Make;Install:Make;Uninstall:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
