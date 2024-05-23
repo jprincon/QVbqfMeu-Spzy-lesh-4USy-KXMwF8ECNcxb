@@ -57,10 +57,12 @@ object FAbrirProyecto: TFAbrirProyecto
       AlignWithMargins = True
       Left = 4
       Top = 4
-      Width = 357
-      Height = 19
+      Width = 786
+      Height = 24
       Align = alClient
       Caption = 'Haga doble clic sobre el proyecto que quiera abrir.'
+      ExplicitWidth = 357
+      ExplicitHeight = 19
     end
   end
   object iconos96: TImageList
@@ -69,7 +71,7 @@ object FAbrirProyecto: TFAbrirProyecto
     Left = 672
     Top = 96
     Bitmap = {
-      494C0101010008001C0060006000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010101000800200060006000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000800100006000000001002000000000000040
       0200000000000000000000000000000000000000000000000000000000000000
       00000000000000000000FAFDFF00A0DAFF006AC5FF0065C3FF0065C3FF0065C3

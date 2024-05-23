@@ -1,3 +1,6 @@
+{Este corresponde al formulario que muestra la lista de proyectos, de los
+cuales el usuario puede seleccionar y abrir uno mediante la acción de
+doble clic}
 unit uFAbrirProyecto;
 
 interface

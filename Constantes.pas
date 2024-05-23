@@ -1,3 +1,5 @@
+{Esta corresponde a la Unidad de Constantes. En esta se definen todas
+las contantes que se usan en el código}
 unit Constantes;
 
 interface
