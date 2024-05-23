@@ -1,3 +1,7 @@
+{Este formulario muestra cuatro tipos diferentes de mensajes al usuario:
+Información, Error, Advertencias y Preguntas. EL programador usa el formulario
+en distintos casos para informar al usuario acerca de algun evento generado
+en la aplicación}
 unit uFMensaje;
 
 interface

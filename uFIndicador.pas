@@ -1,3 +1,5 @@
+{Este formulario muestra un indicador de espera, presentando al usuario
+una forma visual de que algo se esta procesando en la aplicación}
 unit uFIndicador;
 
 interface

@@ -1,3 +1,7 @@
+{Este formulario permite importar información por defecto de las plataformas
+e IDEs usados para el desarrollo de la aplicación. La aplicación cuenta con
+una información por defecto que le permite al usuario importarla para
+la descripción técnica de su software}
 unit uFImportarPlataforma;
 
 interface

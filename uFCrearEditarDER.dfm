@@ -403,7 +403,6 @@ object FCrearEditarDER: TFCrearEditarDER
         ParentFont = False
         TabOrder = 3
         OnChange = edDefinicionChange
-        ExplicitWidth = 817
       end
     end
     object pOpciones: TPanel

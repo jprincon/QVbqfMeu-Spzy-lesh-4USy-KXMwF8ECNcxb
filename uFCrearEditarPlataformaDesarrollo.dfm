@@ -256,7 +256,6 @@ object FCrearEditarPlataformaDesarrollo: TFCrearEditarPlataformaDesarrollo
       Font.Style = [fsBold]
       ParentFont = False
       TabOrder = 0
-      ExplicitTop = 11
       object edNombre: TEdit
         AlignWithMargins = True
         Left = 5

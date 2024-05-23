@@ -1,3 +1,7 @@
+{Esta unidad contiene la clase TLectorRecursos que permite guardar de forma
+local o en el dispositivo (computador) archivos que se incrustaron en el
+ejecutable necesarios para la instalación de la aplicación en el dispositivo,
+por ejemplo el esquema de la base de datos, imágenes y archivos}
 unit uTLectorRecursos;
 
 interface

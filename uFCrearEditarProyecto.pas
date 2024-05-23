@@ -1,3 +1,5 @@
+{Este formulario permite crear o editar un proyecto. Se pide el nombre del
+proyecto y el resumen}
 unit uFCrearEditarProyecto;
 
 interface

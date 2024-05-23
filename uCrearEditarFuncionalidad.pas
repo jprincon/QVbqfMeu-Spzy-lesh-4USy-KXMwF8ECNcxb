@@ -1,3 +1,5 @@
+{Este formulario permite crear o editar funcionalidades del proyecto. Se deben
+ingresar el nombre de la funcionalidad, el tipo y la descripción}
 unit uCrearEditarFuncionalidad;
 
 interface

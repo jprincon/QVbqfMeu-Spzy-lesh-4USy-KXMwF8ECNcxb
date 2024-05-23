@@ -41,7 +41,5 @@ object FAutores: TFAutores
     Align = alClient
     BorderStyle = bsNone
     TabOrder = 1
-    ExplicitTop = 71
-    ExplicitHeight = 603
   end
 end

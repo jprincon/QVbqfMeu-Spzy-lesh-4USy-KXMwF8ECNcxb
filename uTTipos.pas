@@ -1,3 +1,5 @@
+{Esta unidad contiene la definición de tipos de variables que se
+necesitan en el proyecto general}
 unit uTTipos;
 
 interface

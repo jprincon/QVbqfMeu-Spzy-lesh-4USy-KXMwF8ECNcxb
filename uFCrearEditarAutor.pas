@@ -1,3 +1,5 @@
+{Este formulario tiene el objetivo de crear o editar la información de un
+autor de proyecto. Se piden nombres, correo, biografía y fotografía del autor}
 unit uFCrearEditarAutor;
 
 interface

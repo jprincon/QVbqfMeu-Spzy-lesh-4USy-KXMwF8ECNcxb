@@ -52,7 +52,6 @@ object FCrearEditarFuncionalidad: TFCrearEditarFuncionalidad
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 1
-    ExplicitTop = 150
     object edFuncionalidad: TEdit
       AlignWithMargins = True
       Left = 5
@@ -90,7 +89,6 @@ object FCrearEditarFuncionalidad: TFCrearEditarFuncionalidad
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 2
-    ExplicitTop = 300
     object edDescripcion: TSynEdit
       Left = 2
       Top = 18
@@ -133,8 +131,6 @@ object FCrearEditarFuncionalidad: TFCrearEditarFuncionalidad
     Align = alClient
     BevelOuter = bvLowered
     TabOrder = 3
-    ExplicitTop = 450
-    ExplicitHeight = 48
     object sbGuardar: TSpeedButton
       AlignWithMargins = True
       Left = 570
@@ -268,7 +264,6 @@ object FCrearEditarFuncionalidad: TFCrearEditarFuncionalidad
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 4
-    ExplicitTop = 225
     object edTipo: TComboBox
       AlignWithMargins = True
       Left = 5

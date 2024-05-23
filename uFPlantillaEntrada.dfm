@@ -29,7 +29,6 @@ object FPlantillaEdicion: TFPlantillaEdicion
     ParentBackground = False
     ParentFont = False
     TabOrder = 0
-    ExplicitTop = -3
   end
   object GroupBox1: TGroupBox
     AlignWithMargins = True

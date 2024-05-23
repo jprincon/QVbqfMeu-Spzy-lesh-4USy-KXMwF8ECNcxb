@@ -1,3 +1,5 @@
+{Este formulario muestra una lista de los autores. Cada autor es creado
+mediante una clase y exportada a este formulario}
 unit uFAutores;
 
 interface

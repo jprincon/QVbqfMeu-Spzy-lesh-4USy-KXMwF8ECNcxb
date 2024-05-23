@@ -1,3 +1,5 @@
+{Este formulario corresponde a una consola de mensajes en la que el programador
+puede determinar el estado de algunas variables}
 unit uFConsola;
 
 interface

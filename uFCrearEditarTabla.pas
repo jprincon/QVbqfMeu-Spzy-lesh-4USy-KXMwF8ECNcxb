@@ -1,3 +1,4 @@
+{Este formulario permite crear o editar una tabla de la base de datos}
 unit uFCrearEditarTabla;
 
 interface

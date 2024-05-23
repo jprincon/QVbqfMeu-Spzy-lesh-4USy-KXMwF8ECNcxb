@@ -1,6 +1,7 @@
-{ Type = Unit
-  Name = uTUtilidades
-  Description = La Unidad de Utilidades ofrece una serie de procedimientos y funciones que agilizan diversos procesos en otras unidades. Por ejemplo, permite generar cadenas de caracteres para identificadores aleatorios o la creación de colores aleatorios. }
+{La Unidad de Utilidades ofrece una serie de procedimientos y funciones que
+agilizan diversos procesos en otras unidades. Por ejemplo, permite generar
+cadenas de caracteres para identificadores aleatorios o la creación de
+colores aleatorios. }
 unit uTUtilidades;
 
 interface

@@ -112,14 +112,12 @@
         </DelphiCompile>
         <DCCReference Include="uFAddes.pas">
             <Form>FGestorProyectosProgramacion</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uFMensaje.pas">
             <Form>FMensaje</Form>
         </DCCReference>
         <DCCReference Include="uModuloDatos.pas">
             <Form>ModuloDatos</Form>
-            <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
         <DCCReference Include="uTConfiguracionApp.pas"/>
@@ -133,7 +131,6 @@
         </DCCReference>
         <DCCReference Include="uFCrearEditarProyecto.pas">
             <Form>FCrearEditarProyecto</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uFPlantillaEntrada.pas">
             <Form>FPlantillaEdicion</Form>
@@ -143,44 +140,36 @@
         <DCCReference Include="uTTipos.pas"/>
         <DCCReference Include="uFAbrirProyecto.pas">
             <Form>FAbrirProyecto</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uTProyectoProgramacion.pas"/>
         <DCCReference Include="uFCrearEditarAutor.pas">
             <Form>FCrearEditarAutor</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uTLectorRecursos.pas"/>
         <DCCReference Include="uFCrearEditarPasoInstalacion.pas">
             <Form>FCrearEditarPasoInstalacion</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uFIndicador.pas">
             <Form>FIndicador</Form>
         </DCCReference>
         <DCCReference Include="uFCrearEditarPlataformaDesarrollo.pas">
             <Form>FCrearEditarPlataformaDesarrollo</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uFToast.pas">
             <Form>FToast</Form>
         </DCCReference>
         <DCCReference Include="uFCrearEditarModulo.pas">
             <Form>FCrearEditarModulo</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uFCrearEditarCodigoFuente.pas">
             <Form>uFCrearEditarCodigoFuente</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uFCrearEditarSeccion.pas">
             <Form>FCrearEditarSeccion</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uTEditorLatex.pas"/>
         <DCCReference Include="uFImportarPlataforma.pas">
             <Form>FImportarPlataforma</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uFAutores.pas">
             <Form>FAutores</Form>
@@ -194,31 +183,25 @@
         </DCCReference>
         <DCCReference Include="uFPasosInstalacionDefecto.pas">
             <Form>FPasosInstalacionDefecto</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uFConsola.pas">
             <Form>Consola</Form>
         </DCCReference>
         <DCCReference Include="uFCrearEditarDER.pas">
             <Form>FCrearEditarDER</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uCrearEditarFuncionalidad.pas">
             <Form>FCrearEditarFuncionalidad</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uFCrearEditarTipoFuncionalidad.pas">
             <Form>FCrearEditarTipoFuncionalidad</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uFCrearEditarTabla.pas">
             <Form>FCrearEditarTabla</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uTUtilidades.pas"/>
         <DCCReference Include="uFCrearEditarAtributoTabla.pas">
             <Form>FCrearEditarAtributoTabla</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="uTHtml.pas"/>
         <RcItem Include="Plantilla_PDF\Plantilla.cls">

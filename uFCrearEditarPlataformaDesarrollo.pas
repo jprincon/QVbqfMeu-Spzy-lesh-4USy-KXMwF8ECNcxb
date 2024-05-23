@@ -1,3 +1,8 @@
+{Este formulario permite crear o editar una plataforma de desarrollo. Se
+entiende como plataforma de desarrollo aquella con la cual se programa o diseña
+el aplicativo. Por ejemplo para el diseño gráfico se puede usar Corel Draw o
+Ink Scape, para la programación Visual Studio Code, NotePad++ y los IDEs propios
+del lenguaje de programación como Anaconda Navigator, Lazarus Project o Delphi}
 unit uFCrearEditarPlataformaDesarrollo;
 
 interface

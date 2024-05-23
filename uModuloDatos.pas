@@ -1,3 +1,6 @@
+{Este corresponde al módulo de datos. Es una clase donde se centralizan funciones
+para la conexión con la base de datos y las rutas a directorios donde se guarda
+información}
 unit uModuloDatos;
 
 interface

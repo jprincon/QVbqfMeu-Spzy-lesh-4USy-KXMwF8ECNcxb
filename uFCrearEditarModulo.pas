@@ -1,3 +1,8 @@
+{Este formulario permite crear o editar un módulo del código fuente. En su
+mayoría los proyectos de programación se dividen en la base de datos,
+la interfaz gráfica y la lógica detras de la interfaz gráfica, así este
+formulario permite crear esos diferentes módulos para posteriormente asociar
+el código fuente.}
 unit uFCrearEditarModulo;
 
 interface

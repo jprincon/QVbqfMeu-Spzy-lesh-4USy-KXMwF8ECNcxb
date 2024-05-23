@@ -1,3 +1,6 @@
+{Este formulario permite crear un Diagrama Entidad Relación (DER). Se debe
+ingresar el nombre de la tabla y los atributos. Este formulario genera el
+código SQL de la tabla para crear desde código SQL en la base de datos}
 unit uFCrearEditarDER;
 
 interface

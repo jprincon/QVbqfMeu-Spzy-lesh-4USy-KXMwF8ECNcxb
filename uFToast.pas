@@ -1,3 +1,5 @@
+{Este formulario muestra un mensaje temporal al usuario. Se muestra de forma
+transparente y desaparece luego de tres segundos.}
 unit uFToast;
 
 interface

@@ -1,3 +1,6 @@
+{Este formulario permite configurar la ruta de la base de datos. Guarda la ruta
+en un archivo de configuración *.ini para que la aplicación pueda iniciarse
+con la ruta de la base de datos adecuada}
 unit uConfiguracionRutaBD;
 
 interface

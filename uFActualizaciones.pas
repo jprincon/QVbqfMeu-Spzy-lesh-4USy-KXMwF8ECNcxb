@@ -1,3 +1,4 @@
+{Este formulario muestra las actualizaciones que se han desarrollado en el software}
 unit uFActualizaciones;
 
 interface

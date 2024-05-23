@@ -1,3 +1,5 @@
+{Esta unidad contiene la definición de la clase THtml que permite
+crear códigos html desde el lenguaje Pascal.}
 unit uTHtml;
 
 interface

@@ -1,3 +1,6 @@
+{Este formulario permite crear o editar un archivo del código fuente. Además
+de escribir una descripción de lo que hace el código en el archivo particular
+seleccionar un lenguaje para identificarlo en la exportación final}
 unit uFCrearEditarCodigoFuente;
 
 interface

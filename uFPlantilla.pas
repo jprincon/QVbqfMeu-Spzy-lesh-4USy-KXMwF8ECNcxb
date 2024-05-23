@@ -1,3 +1,6 @@
+{Este formulario corresponde al diseño de una plantilla y fue usado para
+crear los nuevos formularios requeridos en la aplicación. Su función solamente
+se da en tiempo de diseño y no tiene utilidad en tiempo de ejecución}
 unit uFPlantilla;
 
 interface

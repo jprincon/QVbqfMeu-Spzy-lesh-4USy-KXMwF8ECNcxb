@@ -1,3 +1,7 @@
+{Esta es una unidad que permite estructurar un proyecto de programación,
+en esta unidad se incluyen clases como la clase TAutorProyecto,
+TPasoInstalacion, TPlataformaDesarrollo, TModuloCodigo, TArchivoCodigo,
+ TSeccionManual, TFuncinalidad, TProyectoProgramacion }
 unit uTProyectoProgramacion;
 
 interface

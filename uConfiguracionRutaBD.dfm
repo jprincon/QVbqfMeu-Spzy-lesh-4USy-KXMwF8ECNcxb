@@ -30,7 +30,6 @@ object FConfiguracionBD: TFConfiguracionBD
     ParentBackground = False
     ParentFont = False
     TabOrder = 0
-    ExplicitWidth = 494
   end
   object GroupBox1: TGroupBox
     AlignWithMargins = True
@@ -51,7 +50,6 @@ object FConfiguracionBD: TFConfiguracionBD
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 1
-    ExplicitWidth = 474
     object sbAbrirRutaBD: TSpeedButton
       AlignWithMargins = True
       Left = 626
@@ -197,9 +195,6 @@ object FConfiguracionBD: TFConfiguracionBD
     Align = alClient
     BevelOuter = bvLowered
     TabOrder = 2
-    ExplicitTop = 254
-    ExplicitWidth = 645
-    ExplicitHeight = 55
     object sbGuardar: TSpeedButton
       AlignWithMargins = True
       Left = 670

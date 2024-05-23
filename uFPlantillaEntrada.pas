@@ -1,3 +1,5 @@
+{Este corresponde a una plantilla para crear aquellos formularios en los que
+se requiere que el usuario ingrese o manipule algun tipo de información}
 unit uFPlantillaEntrada;
 
 interface

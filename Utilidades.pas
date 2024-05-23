@@ -1,3 +1,6 @@
+{Esta corresponde a una unidad de utilidades, definiendo diferentes funciones
+que se necesitan en otros formularios y clases y que se vuelven comunes
+para el código general}
 unit Utilidades;
 
 interface

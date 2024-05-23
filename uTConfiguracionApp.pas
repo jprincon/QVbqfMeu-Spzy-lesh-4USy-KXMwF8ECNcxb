@@ -1,4 +1,5 @@
-﻿unit uTConfiguracionApp;
+﻿{Esta corresponde a una unidad donde se define la clase TConfiguracionApp}
+unit uTConfiguracionApp;
 
 interface
 

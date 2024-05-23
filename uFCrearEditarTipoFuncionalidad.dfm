@@ -31,8 +31,6 @@ object FCrearEditarTipoFuncionalidad: TFCrearEditarTipoFuncionalidad
     ParentBackground = False
     ParentFont = False
     TabOrder = 0
-    ExplicitLeft = -17
-    ExplicitWidth = 694
   end
   object GroupBox1: TGroupBox
     AlignWithMargins = True
@@ -45,7 +43,7 @@ object FCrearEditarTipoFuncionalidad: TFCrearEditarTipoFuncionalidad
     Margins.Right = 10
     Margins.Bottom = 10
     Align = alTop
-    Caption = 'Texto'
+    Caption = 'Nombre del Tipo de Funcionalidad'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -53,8 +51,6 @@ object FCrearEditarTipoFuncionalidad: TFCrearEditarTipoFuncionalidad
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 1
-    ExplicitLeft = 3
-    ExplicitWidth = 674
     object edTipo: TEdit
       AlignWithMargins = True
       Left = 5
@@ -70,8 +66,7 @@ object FCrearEditarTipoFuncionalidad: TFCrearEditarTipoFuncionalidad
       ParentFont = False
       TabOrder = 0
       Text = 'edTipo'
-      ExplicitLeft = 7
-      ExplicitTop = 23
+      ExplicitHeight = 27
     end
   end
   object GroupBox2: TGroupBox
@@ -123,8 +118,6 @@ object FCrearEditarTipoFuncionalidad: TFCrearEditarTipoFuncionalidad
         'edDescripcion')
       WordWrap = True
       FontSmoothing = fsmNone
-      ExplicitWidth = 670
-      ExplicitHeight = 372
     end
   end
   object Panel2: TPanel
@@ -135,10 +128,6 @@ object FCrearEditarTipoFuncionalidad: TFCrearEditarTipoFuncionalidad
     Align = alClient
     BevelOuter = bvLowered
     TabOrder = 3
-    ExplicitLeft = -17
-    ExplicitTop = 491
-    ExplicitWidth = 694
-    ExplicitHeight = 44
     object sbGuardar: TSpeedButton
       AlignWithMargins = True
       Left = 670
@@ -272,8 +261,6 @@ object FCrearEditarTipoFuncionalidad: TFCrearEditarTipoFuncionalidad
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 4
-    ExplicitLeft = 18
-    ExplicitTop = 83
     object edValor: TEdit
       AlignWithMargins = True
       Left = 5

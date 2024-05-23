@@ -30,8 +30,6 @@ object FCrearEditarTabla: TFCrearEditarTabla
     ParentBackground = False
     ParentFont = False
     TabOrder = 0
-    ExplicitLeft = -656
-    ExplicitWidth = 1360
   end
   object Panel6: TPanel
     Left = 0
@@ -41,10 +39,6 @@ object FCrearEditarTabla: TFCrearEditarTabla
     Align = alClient
     BevelOuter = bvLowered
     TabOrder = 1
-    ExplicitLeft = -654
-    ExplicitTop = 117
-    ExplicitWidth = 1358
-    ExplicitHeight = 53
     object sbGuardar: TSpeedButton
       AlignWithMargins = True
       Left = 894
@@ -178,7 +172,6 @@ object FCrearEditarTabla: TFCrearEditarTabla
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 2
-    ExplicitWidth = 674
     object edTabla: TEdit
       AlignWithMargins = True
       Left = 5
@@ -193,7 +186,6 @@ object FCrearEditarTabla: TFCrearEditarTabla
       Font.Style = []
       ParentFont = False
       TabOrder = 0
-      ExplicitWidth = 664
       ExplicitHeight = 27
     end
   end
@@ -216,8 +208,6 @@ object FCrearEditarTabla: TFCrearEditarTabla
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 3
-    ExplicitTop = 225
-    ExplicitWidth = 674
     object edDescripcion: TSynEdit
       Left = 2
       Top = 18
@@ -248,7 +238,6 @@ object FCrearEditarTabla: TFCrearEditarTabla
         'edDescripcion')
       WordWrap = True
       FontSmoothing = fsmNone
-      ExplicitWidth = 670
     end
   end
   object Query: TFDQuery

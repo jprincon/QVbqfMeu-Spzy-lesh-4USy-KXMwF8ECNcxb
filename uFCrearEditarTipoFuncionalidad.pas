@@ -1,3 +1,6 @@
+{Este formulario permite crear los tipos de funcionalidad para la plataforma
+completa. Se debe ingresar el nombre de la funcionalidad, el valor o precio
+por desarrollarla y una descripción de la funcionalidad}
 unit uFCrearEditarTipoFuncionalidad;
 
 interface

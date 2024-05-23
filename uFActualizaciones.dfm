@@ -32,7 +32,6 @@ object FActualizaciones: TFActualizaciones
     ParentBackground = False
     ParentFont = False
     TabOrder = 0
-    ExplicitWidth = 694
   end
   object Navegador: TWebBrowser
     Left = 0

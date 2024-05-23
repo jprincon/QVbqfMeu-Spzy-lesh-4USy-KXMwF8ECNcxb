@@ -1,3 +1,4 @@
+{Este formulario permite crear o editar el atributo de una tabla de la base de datos}
 unit uFCrearEditarAtributoTabla;
 
 interface

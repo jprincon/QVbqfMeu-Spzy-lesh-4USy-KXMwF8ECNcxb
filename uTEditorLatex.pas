@@ -1,3 +1,5 @@
+{Este corresponde a una clase donde se define la clase TEditorLatex que
+permite la edición de código Latex desde Pascal}
 unit uTEditorLatex;
 
 interface

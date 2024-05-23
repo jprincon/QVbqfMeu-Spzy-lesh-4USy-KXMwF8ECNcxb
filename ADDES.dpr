@@ -1,3 +1,6 @@
+{Este corresponde al programa principal. Desde este código se gestiona cada
+uno de las unidades y formulario y se lanzan o ejecutan cuando la aplicación
+se inicia}
 program ADDES;
 
 {$R *.dres}

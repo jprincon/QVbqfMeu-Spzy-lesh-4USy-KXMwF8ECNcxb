@@ -1,3 +1,5 @@
+{Este formulario presenta las características y la información del software
+o aplicación}
 unit uFSoftware;
 
 interface

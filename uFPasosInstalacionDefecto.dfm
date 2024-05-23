@@ -31,7 +31,6 @@ object FPasosInstalacionDefecto: TFPasosInstalacionDefecto
     ParentBackground = False
     ParentFont = False
     TabOrder = 0
-    ExplicitWidth = 1008
   end
   object paginaLista: TPageControl
     Left = 0
@@ -47,10 +46,6 @@ object FPasosInstalacionDefecto: TFPasosInstalacionDefecto
     object TabSheet1: TTabSheet
       Caption = 'Instalaciones por Defecto'
       ImageIndex = 1
-      ExplicitLeft = 34
-      ExplicitTop = 6
-      ExplicitWidth = 495
-      ExplicitHeight = 703
       object lvPasos: TListView
         Left = 0
         Top = 0
@@ -82,8 +77,6 @@ object FPasosInstalacionDefecto: TFPasosInstalacionDefecto
         TabOrder = 0
         ViewStyle = vsReport
         OnClick = seleccionarPaso
-        ExplicitLeft = -2
-        ExplicitTop = -2
       end
     end
   end
@@ -95,10 +88,6 @@ object FPasosInstalacionDefecto: TFPasosInstalacionDefecto
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 2
-    ExplicitLeft = 760
-    ExplicitTop = 320
-    ExplicitWidth = 113
-    ExplicitHeight = 145
     object paginaCodigo: TPageControl
       Left = 0
       Top = 0
@@ -111,10 +100,6 @@ object FPasosInstalacionDefecto: TFPasosInstalacionDefecto
       object TabSheet2: TTabSheet
         Caption = 'Vista previa del C'#243'digo'
         ImageIndex = 4
-        ExplicitLeft = 6
-        ExplicitTop = 30
-        ExplicitWidth = 612
-        ExplicitHeight = 327
         object edDescripcion: TSynEdit
           Left = 0
           Top = 0
@@ -150,9 +135,6 @@ object FPasosInstalacionDefecto: TFPasosInstalacionDefecto
               'e instalaci'#243'n.')
           WordWrap = True
           FontSmoothing = fsmNone
-          ExplicitLeft = 2
-          ExplicitWidth = 612
-          ExplicitHeight = 327
         end
       end
     end
@@ -169,10 +151,6 @@ object FPasosInstalacionDefecto: TFPasosInstalacionDefecto
       TabPosition = tpRight
       object TabSheet3: TTabSheet
         Caption = 'Imagen'
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 586
-        ExplicitHeight = 342
         object imgVista: TImage
           Left = 0
           Top = 0
@@ -197,8 +175,6 @@ object FPasosInstalacionDefecto: TFPasosInstalacionDefecto
     Align = alBottom
     BevelOuter = bvLowered
     TabOrder = 3
-    ExplicitTop = 670
-    ExplicitWidth = 742
     object sbImportar: TSpeedButton
       AlignWithMargins = True
       Left = 1226
@@ -318,7 +294,7 @@ object FPasosInstalacionDefecto: TFPasosInstalacionDefecto
     Left = 294
     Top = 333
     Bitmap = {
-      494C010105000800240018001800FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010105000800280018001800FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000600000003000000001002000000000000048
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000

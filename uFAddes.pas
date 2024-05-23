@@ -1,3 +1,6 @@
+{Este es el formulario principal de la aplicación. Contiene todos los
+elementos y componentes que permiten enlazar otros subformularios y
+unidades funcionales de la aplicación}
 unit uFAddes;
 
 interface

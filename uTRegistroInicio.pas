@@ -1,3 +1,6 @@
+{Esta corresponde a la Unidad donde se define la clase TRegistroInicio. Esta
+clase es la definición de un panel en tiempo de ejecución en la cual los
+usuarios se pueden registrar o iniciar sesión en la aplicación}
 unit uTRegistroInicio;
 
 interface

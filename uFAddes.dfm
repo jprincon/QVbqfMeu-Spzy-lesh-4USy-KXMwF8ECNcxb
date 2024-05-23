@@ -2407,6 +2407,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
         object TabHerramientas: TTabSheet
           Caption = 'Herramientas'
           ImageIndex = 9
+          ExplicitLeft = 0
+          ExplicitTop = 0
+          ExplicitWidth = 0
+          ExplicitHeight = 0
           object Panel15: TPanel
             Left = 0
             Top = 0
@@ -2549,8 +2553,8 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 AlignWithMargins = True
                 Left = 3
                 Top = 44
-                Width = 115
-                Height = 34
+                Width = 112
+                Height = 32
                 Align = alClient
                 Alignment = taCenter
                 Caption = 'Configurar Ruta de la Base de Datos'
@@ -2562,8 +2566,6 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 ParentFont = False
                 Layout = tlCenter
                 WordWrap = True
-                ExplicitWidth = 112
-                ExplicitHeight = 32
               end
             end
           end
@@ -2710,7 +2712,7 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 Left = 3
                 Top = 44
                 Width = 67
-                Height = 34
+                Height = 32
                 Align = alClient
                 Alignment = taCenter
                 Caption = 'Consola de Mensajes'
@@ -2722,7 +2724,6 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 ParentFont = False
                 Layout = tlCenter
                 WordWrap = True
-                ExplicitHeight = 32
               end
             end
           end
@@ -2730,6 +2731,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
         object TabSesion: TTabSheet
           Caption = 'Sesi'#243'n'
           ImageIndex = 11
+          ExplicitLeft = 0
+          ExplicitTop = 0
+          ExplicitWidth = 0
+          ExplicitHeight = 0
           object Panel6: TPanel
             Left = 0
             Top = 0
@@ -2872,8 +2877,8 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 AlignWithMargins = True
                 Left = 3
                 Top = 44
-                Width = 59
-                Height = 34
+                Width = 41
+                Height = 32
                 Align = alClient
                 Alignment = taCenter
                 Caption = 'Cerrar Sesi'#243'n'
@@ -2885,8 +2890,6 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 ParentFont = False
                 Layout = tlCenter
                 WordWrap = True
-                ExplicitWidth = 41
-                ExplicitHeight = 32
               end
             end
           end
@@ -2894,6 +2897,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
         object TabSheet5: TTabSheet
           Caption = 'Acerca de ...'
           ImageIndex = 10
+          ExplicitLeft = 0
+          ExplicitTop = 0
+          ExplicitWidth = 0
+          ExplicitHeight = 0
           object Panel25: TPanel
             Left = 0
             Top = 0
@@ -3036,8 +3043,8 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 AlignWithMargins = True
                 Left = 3
                 Top = 44
-                Width = 59
-                Height = 34
+                Width = 57
+                Height = 48
                 Align = alClient
                 Alignment = taCenter
                 Caption = 'Acerca de los Autores'
@@ -3049,8 +3056,6 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 ParentFont = False
                 Layout = tlCenter
                 WordWrap = True
-                ExplicitWidth = 57
-                ExplicitHeight = 48
               end
             end
             object Panel28: TPanel
@@ -3176,8 +3181,8 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 AlignWithMargins = True
                 Left = 3
                 Top = 44
-                Width = 80
-                Height = 34
+                Width = 64
+                Height = 32
                 Align = alClient
                 Alignment = taCenter
                 Caption = 'Acerca del Software'
@@ -3189,8 +3194,6 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 ParentFont = False
                 Layout = tlCenter
                 WordWrap = True
-                ExplicitWidth = 64
-                ExplicitHeight = 32
               end
             end
             object Panel34: TPanel
@@ -3316,8 +3319,8 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 AlignWithMargins = True
                 Left = 3
                 Top = 44
-                Width = 88
-                Height = 34
+                Width = 87
+                Height = 16
                 Align = alClient
                 Alignment = taCenter
                 Caption = 'Actualizaciones'
@@ -3329,8 +3332,6 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 ParentFont = False
                 Layout = tlCenter
                 WordWrap = True
-                ExplicitWidth = 87
-                ExplicitHeight = 16
               end
             end
           end
@@ -3497,6 +3498,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 TabOrder = 1
                 object TabDatosBasicos: TTabSheet
                   Caption = 'Datos B'#225'sicos'
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object gb0: TGroupBox
                     AlignWithMargins = True
                     Left = 10
@@ -3747,6 +3752,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 object TanRegistro: TTabSheet
                   Caption = 'Registro'
                   ImageIndex = 1
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object gb7: TGroupBox
                     AlignWithMargins = True
                     Left = 10
@@ -3856,6 +3865,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 object TabDiseno: TTabSheet
                   Caption = 'Dise'#241'o'
                   ImageIndex = 2
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object gb10: TGroupBox
                     AlignWithMargins = True
                     Left = 10
@@ -4084,6 +4097,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 object TabTecnico: TTabSheet
                   Caption = 'Configuraci'#243'n T'#233'cnica'
                   ImageIndex = 3
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object pDT1: TPanel
                     Left = 0
                     Top = 0
@@ -4490,6 +4507,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 object TabDescripcion: TTabSheet
                   Caption = 'Descripci'#243'n'
                   ImageIndex = 4
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object gb24: TGroupBox
                     AlignWithMargins = True
                     Left = 10
@@ -5016,6 +5037,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                   TabPosition = tpLeft
                   object TabSheet10: TTabSheet
                     Caption = 'Descripci'#243'n'
+                    ExplicitLeft = 0
+                    ExplicitTop = 0
+                    ExplicitWidth = 0
+                    ExplicitHeight = 0
                     object edBioAutor: TSynEdit
                       Left = 0
                       Top = 0
@@ -5066,6 +5091,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                   TabPosition = tpLeft
                   object TabSheet11: TTabSheet
                     Caption = 'Imagen'
+                    ExplicitLeft = 0
+                    ExplicitTop = 0
+                    ExplicitWidth = 0
+                    ExplicitHeight = 0
                     object imgAutor: TImage
                       Left = 0
                       Top = 0
@@ -5848,6 +5877,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 object TabManualTecnico: TTabSheet
                   Caption = 'Manual T'#233'cnico'
                   ImageIndex = 4
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object seManualTecnico: TSynEdit
                     Left = 0
                     Top = 0
@@ -5885,6 +5918,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 object TabCodigoFuente: TTabSheet
                   Caption = 'C'#243'digo Fuente'
                   ImageIndex = 5
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object seCodigoFuente: TSynEdit
                     Left = 0
                     Top = 0
@@ -6455,9 +6492,6 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 OnClick = verPlataforma
                 OnDblClick = editarPlataformaDesarrollo
                 OnKeyDown = LvPlataformasKeyDown
-                ExplicitTop = 152
-                ExplicitWidth = 1016
-                ExplicitHeight = 219
               end
               object Panel5: TPanel
                 Left = 0
@@ -6848,7 +6882,6 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                   BevelKind = bkTile
                   BevelOuter = bvNone
                   TabOrder = 0
-                  ExplicitWidth = 103
                   object sbImportarPlataforma: TSpeedButton
                     AlignWithMargins = True
                     Left = 3
@@ -7097,8 +7130,8 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                     ParentFont = False
                     Layout = tlCenter
                     WordWrap = True
-                    ExplicitWidth = 120
-                    ExplicitHeight = 32
+                    ExplicitWidth = 66
+                    ExplicitHeight = 48
                   end
                 end
               end
@@ -8047,6 +8080,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                   TabPosition = tpLeft
                   object TabSheet1: TTabSheet
                     Caption = 'Descripci'#243'n'
+                    ExplicitLeft = 0
+                    ExplicitTop = 0
+                    ExplicitWidth = 0
+                    ExplicitHeight = 0
                     object edDescripcion: TSynEdit
                       Left = 0
                       Top = 0
@@ -8097,6 +8134,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                   TabPosition = tpLeft
                   object TabSheet2: TTabSheet
                     Caption = 'Imagen'
+                    ExplicitLeft = 0
+                    ExplicitTop = 0
+                    ExplicitWidth = 0
+                    ExplicitHeight = 0
                     object imgInst: TImage
                       Left = 0
                       Top = 0
@@ -8159,6 +8200,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 TabPosition = tpLeft
                 object TabSheet3: TTabSheet
                   Caption = 'M'#243'dulos'
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object lvModulos: TListView
                     Left = 0
                     Top = 0
@@ -8245,6 +8290,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 TabPosition = tpLeft
                 object TabArchivos: TTabSheet
                   Caption = 'Archivos'
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object lvArchivos: TListView
                     Left = 0
                     Top = 0
@@ -8304,8 +8353,8 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                   AlignWithMargins = True
                   Left = 11
                   Top = 11
-                  Width = 994
-                  Height = 43
+                  Width = 985
+                  Height = 38
                   Margins.Left = 10
                   Margins.Top = 10
                   Margins.Right = 10
@@ -8317,8 +8366,6 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                     'go por cada uno de los m'#243'dulos puede agregar los archivos del c'#243 +
                     'digo fuente.'
                   WordWrap = True
-                  ExplicitWidth = 985
-                  ExplicitHeight = 38
                 end
               end
               object paginaOpcionesArchivos: TPageControl
@@ -8333,6 +8380,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 TabPosition = tpLeft
                 object TabOpcionesArchivos: TTabSheet
                   Caption = 'Opciones de Archivos'
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object Panel48: TPanel
                     Left = 0
                     Top = 0
@@ -9437,6 +9488,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 TabPosition = tpRight
                 object TabSecciones2: TTabSheet
                   Caption = 'Secciones'
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object Splitter6: TSplitter
                     Left = 472
                     Top = 67
@@ -10109,6 +10164,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                     TabPosition = tpLeft
                     object TabVistaPrevia: TTabSheet
                       Caption = 'Descripci'#243'n'
+                      ExplicitLeft = 0
+                      ExplicitTop = 0
+                      ExplicitWidth = 0
+                      ExplicitHeight = 0
                       object vistaPreviaManual: TWebBrowser
                         Left = 0
                         Top = 0
@@ -10297,6 +10356,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 TabPosition = tpLeft
                 object TabSheet12: TTabSheet
                   Caption = 'Descripci'#243'n'
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object edAportes: TSynEdit
                     Left = 0
                     Top = 0
@@ -10375,6 +10438,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 object TabTablasBaseDatos: TTabSheet
                   Caption = 'Tablas de la Base de Datos'
                   ImageIndex = 13
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object lvTablasBD: TListView
                     Left = 0
                     Top = 0
@@ -10784,6 +10851,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 object TabAtributos: TTabSheet
                   Caption = 'Atributos de la Tabla (*)'
                   ImageIndex = 13
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object Splitter7: TSplitter
                     Left = 0
                     Top = 244
@@ -12267,6 +12338,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 object TabPA_Analisis: TTabSheet
                   Caption = 'An'#225'lisis'
                   ImageIndex = 8
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object edAnalisis: TSynEdit
                     Left = 0
                     Top = 59
@@ -12317,8 +12392,8 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                       AlignWithMargins = True
                       Left = 3
                       Top = 3
-                      Width = 1002
-                      Height = 53
+                      Width = 994
+                      Height = 48
                       Align = alClient
                       Caption = 
                         'En esta etapa se define qu'#233' funcionalidades debe tener el softwa' +
@@ -12334,14 +12409,16 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                       Font.Style = []
                       ParentFont = False
                       WordWrap = True
-                      ExplicitWidth = 994
-                      ExplicitHeight = 48
                     end
                   end
                 end
                 object TabPA_Diseno: TTabSheet
                   Caption = 'Dise'#241'o'
                   ImageIndex = 8
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object Panel63: TPanel
                     Left = 0
                     Top = 0
@@ -12356,8 +12433,8 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                       AlignWithMargins = True
                       Left = 3
                       Top = 3
-                      Width = 1002
-                      Height = 53
+                      Width = 997
+                      Height = 48
                       Align = alClient
                       Caption = 
                         'Aqu'#237' se crea la arquitectura del software, definiendo c'#243'mo se es' +
@@ -12373,8 +12450,6 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                       Font.Style = []
                       ParentFont = False
                       WordWrap = True
-                      ExplicitWidth = 997
-                      ExplicitHeight = 48
                     end
                   end
                   object edDiseno: TSynEdit
@@ -12417,6 +12492,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 object TabPA_Implementacion: TTabSheet
                   Caption = 'Implementaci'#243'n'
                   ImageIndex = 2
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object Panel64: TPanel
                     Left = 0
                     Top = 0
@@ -12431,8 +12510,8 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                       AlignWithMargins = True
                       Left = 3
                       Top = 3
-                      Width = 1002
-                      Height = 53
+                      Width = 975
+                      Height = 32
                       Align = alClient
                       Caption = 
                         'En esta fase se escribe el c'#243'digo del software siguiendo el dise' +
@@ -12448,8 +12527,6 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                       Font.Style = []
                       ParentFont = False
                       WordWrap = True
-                      ExplicitWidth = 975
-                      ExplicitHeight = 32
                     end
                   end
                   object edImplementacion: TSynEdit
@@ -12492,6 +12569,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 object TabPA_Validacion: TTabSheet
                   Caption = 'Validaci'#243'n'
                   ImageIndex = 3
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object Panel65: TPanel
                     Left = 0
                     Top = 0
@@ -12506,8 +12587,8 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                       AlignWithMargins = True
                       Left = 3
                       Top = 3
-                      Width = 1002
-                      Height = 53
+                      Width = 1001
+                      Height = 48
                       Align = alClient
                       Caption = 
                         ' Es crucial para garantizar que el software cumple con los requi' +
@@ -12523,8 +12604,6 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                       Font.Style = []
                       ParentFont = False
                       WordWrap = True
-                      ExplicitWidth = 1001
-                      ExplicitHeight = 48
                     end
                   end
                   object edValidacion: TSynEdit
@@ -12567,6 +12646,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 object TabPA_Plataforma: TTabSheet
                   Caption = 'Plataforma'
                   ImageIndex = 4
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object Panel66: TPanel
                     Left = 0
                     Top = 0
@@ -12581,8 +12664,8 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                       AlignWithMargins = True
                       Left = 3
                       Top = 3
-                      Width = 1002
-                      Height = 53
+                      Width = 935
+                      Height = 32
                       Align = alClient
                       Caption = 
                         'Se refiere al entorno en el que se ejecutar'#225' el software. En el ' +
@@ -12596,8 +12679,6 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                       Font.Style = []
                       ParentFont = False
                       WordWrap = True
-                      ExplicitWidth = 935
-                      ExplicitHeight = 32
                     end
                   end
                   object edPlataforma: TSynEdit
@@ -12640,6 +12721,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                 object TabPA_Ambiente: TTabSheet
                   Caption = 'Ambiente'
                   ImageIndex = 5
+                  ExplicitLeft = 0
+                  ExplicitTop = 0
+                  ExplicitWidth = 0
+                  ExplicitHeight = 0
                   object Panel67: TPanel
                     Left = 0
                     Top = 0
@@ -12654,8 +12739,8 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                       AlignWithMargins = True
                       Left = 3
                       Top = 3
-                      Width = 1002
-                      Height = 53
+                      Width = 975
+                      Height = 32
                       Align = alClient
                       Caption = 
                         'Hace referencia al contexto en el que se utilizar'#225' el software. ' +
@@ -12671,8 +12756,6 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
                       Font.Style = []
                       ParentFont = False
                       WordWrap = True
-                      ExplicitWidth = 975
-                      ExplicitHeight = 32
                     end
                   end
                   object edAmbiente: TSynEdit
@@ -12758,6 +12841,10 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
             TabPosition = tpLeft
             object TabSheet4: TTabSheet
               Caption = 'Proyectos Recientes'
+              ExplicitLeft = 0
+              ExplicitTop = 0
+              ExplicitWidth = 0
+              ExplicitHeight = 0
               object lvRecientes: TListView
                 Left = 0
                 Top = 0
@@ -14760,7 +14847,7 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
     Left = 851
     Top = 91
     Bitmap = {
-      494C01011100A800180118001800FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C01011100A8001C0118001800FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       00000000000036000000280000006000000078000000010020000000000000B4
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000F9F7F100DACEA600BFA964009E7C14009774
@@ -16258,7 +16345,7 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
     Left = 800
     Top = 91
     Bitmap = {
-      494C01010F00A800580120002000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C01010F00A8005C0120002000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000800000008000000001002000000000000000
       0100000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
@@ -18904,7 +18991,7 @@ object FGestorProyectosProgramacion: TFGestorProyectosProgramacion
     Left = 695
     Top = 92
     Bitmap = {
-      494C010101000800780060006000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C0101010008007C0060006000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000800100006000000001002000000000000040
       0200000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000

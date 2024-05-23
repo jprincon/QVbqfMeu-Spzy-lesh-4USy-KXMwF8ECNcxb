@@ -1903,7 +1903,7 @@ object FMensaje: TFMensaje
         Left = 184
         Top = 48
         Width = 458
-        Height = 75
+        Height = 175
         Align = alClient
         Caption = 
           'Este es un mensaje de informaci'#243'n que puede tener mucho texto y ' +
@@ -1916,6 +1916,7 @@ object FMensaje: TFMensaje
         Font.Style = []
         ParentFont = False
         WordWrap = True
+        ExplicitHeight = 75
       end
       object imgQuestion: TImage
         AlignWithMargins = True

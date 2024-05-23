@@ -1,3 +1,5 @@
+{Esta unidad contiene la definición de la clase TTablasBD que permite
+crear tablas en la una base de datos y actualizar los atributos}
 unit uTTablasBD;
 
 interface

@@ -1,3 +1,6 @@
+{Este formulario permite crear o editar un paso de instalación. Es decir
+permite crear un item explicando uno de los pasos de instalación. En este
+formulario se deben agregar, título, descripción, orden e imagen.}
 unit uFCrearEditarPasoInstalacion;
 
 interface

@@ -370,8 +370,6 @@ object FCrearEditarSeccion: TFCrearEditarSeccion
       TabOrder = 1
       object TabEditor: TTabSheet
         Caption = 'Editor'
-        ExplicitLeft = 6
-        ExplicitTop = 28
         object seEditor: TSynEdit
           Left = 0
           Top = 0
@@ -434,7 +432,6 @@ object FCrearEditarSeccion: TFCrearEditarSeccion
       Font.Style = [fsBold]
       ParentFont = False
       TabOrder = 0
-      ExplicitWidth = 351
       object edNombre: TEdit
         AlignWithMargins = True
         Left = 5
@@ -450,7 +447,6 @@ object FCrearEditarSeccion: TFCrearEditarSeccion
         ParentFont = False
         TabOrder = 0
         Text = 'edNombre'
-        ExplicitWidth = 341
         ExplicitHeight = 27
       end
     end

@@ -1,3 +1,6 @@
+{Este formulario permite crear o editar una sección del manual de usuario. Se
+debe ingresar el nombre de la sección, el número (orden) la descripción
+de la secció y una imagen}
 unit uFCrearEditarSeccion;
 
 interface

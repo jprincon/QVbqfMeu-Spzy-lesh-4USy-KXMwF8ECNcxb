@@ -452,6 +452,10 @@ object FPlantilla: TFPlantilla
     object TabHerramientas: TTabSheet
       Caption = 'Herramientas'
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object Panel15: TPanel
         Left = 0
         Top = 0
@@ -714,8 +718,8 @@ object FPlantilla: TFPlantilla
             AlignWithMargins = True
             Left = 3
             Top = 59
-            Width = 115
-            Height = 39
+            Width = 112
+            Height = 32
             Align = alClient
             Alignment = taCenter
             Caption = 'Configurar Ruta de la Base de Datos'
@@ -727,8 +731,6 @@ object FPlantilla: TFPlantilla
             ParentFont = False
             Layout = tlCenter
             WordWrap = True
-            ExplicitWidth = 112
-            ExplicitHeight = 32
           end
         end
       end
@@ -736,6 +738,10 @@ object FPlantilla: TFPlantilla
     object TabSesion: TTabSheet
       Caption = 'Sesi'#243'n'
       ImageIndex = 2
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object Panel6: TPanel
         Left = 0
         Top = 0
@@ -998,8 +1004,8 @@ object FPlantilla: TFPlantilla
             AlignWithMargins = True
             Left = 3
             Top = 59
-            Width = 59
-            Height = 39
+            Width = 41
+            Height = 32
             Align = alClient
             Alignment = taCenter
             Caption = 'Cerrar Sesi'#243'n'
@@ -1011,8 +1017,6 @@ object FPlantilla: TFPlantilla
             ParentFont = False
             Layout = tlCenter
             WordWrap = True
-            ExplicitWidth = 41
-            ExplicitHeight = 32
           end
         end
       end
@@ -1020,6 +1024,10 @@ object FPlantilla: TFPlantilla
     object TabSheet4: TTabSheet
       Caption = 'Acerca de ...'
       ImageIndex = 7
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object Panel21: TPanel
         Left = 0
         Top = 0
@@ -1283,8 +1291,8 @@ object FPlantilla: TFPlantilla
             AlignWithMargins = True
             Left = 3
             Top = 59
-            Width = 88
-            Height = 39
+            Width = 87
+            Height = 16
             Align = alClient
             Alignment = taCenter
             Caption = 'Actualizaciones'
@@ -1296,8 +1304,6 @@ object FPlantilla: TFPlantilla
             ParentFont = False
             Layout = tlCenter
             WordWrap = True
-            ExplicitWidth = 87
-            ExplicitHeight = 16
           end
         end
         object Panel24: TPanel
@@ -1545,8 +1551,8 @@ object FPlantilla: TFPlantilla
             AlignWithMargins = True
             Left = 3
             Top = 59
-            Width = 46
-            Height = 39
+            Width = 44
+            Height = 16
             Align = alClient
             Alignment = taCenter
             Caption = 'Autores'
@@ -1558,8 +1564,6 @@ object FPlantilla: TFPlantilla
             ParentFont = False
             Layout = tlCenter
             WordWrap = True
-            ExplicitWidth = 44
-            ExplicitHeight = 16
           end
         end
         object Panel25: TPanel
@@ -1806,8 +1810,8 @@ object FPlantilla: TFPlantilla
             AlignWithMargins = True
             Left = 3
             Top = 59
-            Width = 56
-            Height = 39
+            Width = 52
+            Height = 16
             Align = alClient
             Alignment = taCenter
             Caption = 'Software'
@@ -1819,8 +1823,6 @@ object FPlantilla: TFPlantilla
             ParentFont = False
             Layout = tlCenter
             WordWrap = True
-            ExplicitWidth = 52
-            ExplicitHeight = 16
           end
         end
       end
@@ -1878,6 +1880,10 @@ object FPlantilla: TFPlantilla
     TabOrder = 3
     object TabSheet2: TTabSheet
       Caption = 'Lista de Elementos'
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object ListView1: TListView
         Left = 0
         Top = 0
@@ -1952,7 +1958,7 @@ object FPlantilla: TFPlantilla
     Left = 904
     Top = 64
     Bitmap = {
-      494C010103000800540020002000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010103000800580020002000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000800000002000000001002000000000000040
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
@@ -2493,7 +2499,7 @@ object FPlantilla: TFPlantilla
     Left = 999
     Top = 65
     Bitmap = {
-      494C010108006800680018001800FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C0101080068006C0018001800FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       000000000000360000002800000060000000480000000100200000000000006C
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000

@@ -1,3 +1,4 @@
+{Esta corresponde a una unidad donde se define la clase TAutorSoftware}
 unit uTAutorSoftware;
 
 interface

@@ -1,3 +1,6 @@
+{Este formulario permite importar al proyecto los pasos de instalación por
+defecto. Esta utilidad se deja por defecto, ya que para instalar una aplicación
+web en un servidor se usan los mismos pasos.}
 unit uFPasosInstalacionDefecto;
 
 interface
